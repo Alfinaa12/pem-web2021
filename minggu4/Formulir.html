@@ -1,1 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Alfina Rizka Nurul Chusna</title>
+    <style>
+        body, h1, h2, h3, form {
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+        }
+        .wrap {
+            background-color:rgba(103, 66, 172, 0.7);
+            width: 40% ;
+            color:rgb(255, 255, 255);
+            margin:  auto;
+        }
+        .container {
+            padding:5px;
+            margin: 10%;
+        }
+        table{
+            margin: auto;
+            padding-bottom: 5px;
+        }
+        table td{
+            padding: 5px;
+        }
+        button{
+            width: 50px;
+            font-family: comic sans ms;
+            height: 30px;
+            background-color: blueviolet;
+            border-radius:7px; 
+        }
+    </style>
+</head>
+<center><h1 style="color: rgb(255, 255, 255); "> こんにちはようこそ &#128521;</h1></center>
+<body style="background: url(havegoodday.jpg);background-size: cover;background-attachment: fixed;">
+    <div class="wrap">
+        <div class="container">
+        <h2 align="center">Formulir <span>Pendaftaran &#127915;</span></h2>
+        <h3 style"background color; grey" align:"center></h3>
+        <form action="contact.php" method="POST">
+        <table>
+            <tr>
+                <td>Nama Lengkap</td>
+                <td>:</td>
+                <td><input type="text" name="nama_lengkap"></td>
+            </tr>
+            <tr>
+                <td>NIM</td>
+                <td>:</td>
+                <td><input type="text" name="nim"></td>
+            </tr>
+            <tr>
+                <td>Alamat</td>
+                <td>:</td>
+                <td><textarea name="alamat"></textarea></td>
+            </tr>
+            <tr>
+                <td>Kecamatan</td>
+                <td>:</td>
+                <td>
+                    <select name="kecamatan">
+                        <option>---Pilih kecamatan---</option>
+                        <option>Kota</option>
+                        <option>Jati</option>
+                        <option>Dawe</option>
+                        <option>Mejobo</option>
+                        <option>Jekulo</option>
+                        <option>Undaan</option>
+                        <option>Kaliwungu</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Tempat Lahir</td>
+                <td>:</td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td>Jenis kelamin</td>
+                <td>:</td>
+                <td><input type="radio" name="jk"> Laki-laki
+                    <input type="radio" name="jk"> Perempuan
+                </td>
+            </tr>
+            <tr>
+                <td>No telepon</td>
+                <td>:</td>
+                <td><input type="text" name="telepon"></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>:</td>
+                <td><input type="text" name="email"></td>
+            </tr>
+            <tr>
+                <td>Hobi</td>
+                <td>:</td>
+                <td><input type="text" name="hobi"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>
+                    <button type="submit" name="Kirim">Kirim</button>
+                    <button type="submit" name="Batal">Batal</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+    </div>
+    </div>
+</body>
+</html>
 
